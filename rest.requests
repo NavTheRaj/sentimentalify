@@ -1,0 +1,16 @@
+###
+POST http://127.0.0.1:5000/api/v1/getAnalysis/ 
+content-type: application/json
+
+{
+    "message": "Hello I am so dissapointed in you"
+}
+
+###
+POST https://sentimentalify.herokuapp.com/api/v1/getAnalysis/
+content-type: application/json
+
+{
+    "message": "Hello I am so dissapointed in you"
+}
+

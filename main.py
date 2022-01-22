@@ -1,6 +1,8 @@
 from flask import Flask,request,jsonify
 app = Flask(__name__)
 import engine as en
+from flask_cors import CORS
+CORS(app)
 
 
 @app.route('/api/v1/getAnalysis/', methods=['GET','POST'])
